@@ -1,10 +1,10 @@
 site:
   title: Zot Docs
-  start_page: antora-ui-default::index.adoc 
+  start_page: zot-docs-1:developer-guide:draft-developer-guide-chapters.adoc
 content:
   sources: 
-  - url: https://github.com/project-zot/docs-zot.git
-    branches: HEAD
+  - url: https://github.com/raulkele/docs-zot
+    branches: testing
 ui: 
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
